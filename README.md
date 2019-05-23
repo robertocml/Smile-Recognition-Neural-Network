@@ -1,3 +1,4 @@
+![neural](https://user-images.githubusercontent.com/12022308/58292296-63810400-7d86-11e9-9aba-26cbe949e51f.PNG)
 # Smile Recognition: Deep Learning Neural Network Application.
 
 En este proyecto se desarrolló  una red neuronal de 4 capas como proyecto final del curso 'Deep Learning' en el Tecnológico de Monterrey Campus Monterrey. El objetivo principal de la red es clasificar una imagen como “0” en caso de que la persona no esté sonriendo o  “1” en caso de que la persona este sonriendo.
