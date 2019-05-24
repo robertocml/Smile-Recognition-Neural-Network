@@ -23,7 +23,7 @@ Una vez instalado y abierto Jupyter Notebook, bastara con abrir desde Jupyter el
 ## Como funciona nuestra red? 
 
 Nuestro dataset contiene imagenes de 64x64 pixels (usamos esa baja resolucion dado a la complejidad computacional de las operacions matriciales que necesitabamos ejecutar).
-Inicialmente guardamos la informacion RGB de la imagen en un vecotr, el cual será el input que recibira nuestra red.
+Inicialmente guardamos la informacion RGB de la imagen en un vector, el cual será el input que recibira nuestra red.
 Asi que la capa inical nos quedaria de 64x64x3 = 12,288 neuronas de entrada.
 Una vez procesado el vector inicial, pasamos por otras 3 capas escondidas antes de llegar a la capa de salida.
 Aqui una imagen para explicar más gráficamente lo que esta sucediendo en nuestra red.
@@ -65,6 +65,9 @@ Algunos de los motivos por los cuales se obtuvieron clasificaciones erróneas so
  - El ángulo de la foto no es el correcto (de frente)
  - La foto esta muy oscura
  - La postura no es muy natural
+ 
+ 
+ 
 Sin embargo en general se obtuvo un excelente resultado, ya que fueron muy pocas las imágenes que se clasificaron de manera incorrecta
 
 
